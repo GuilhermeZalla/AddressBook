@@ -21,7 +21,7 @@ package p1.project.addressbook;
                          +"|       DIGITAL ADDRESSBOOK        |\n"
                          +"|----------------------------------|\n"
                          +"|Would you like to write it down?  |\n"
-                         +"|1-)Yes                            |\n"
+                         +"|1-)Yes                           |\\ n"
                          +"|2-)No and leave                   |\n"
                          +" ---------------------------------- \n");
                          resp = input.nextInt();
