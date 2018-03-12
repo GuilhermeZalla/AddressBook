@@ -4,6 +4,7 @@ package p1.project.addressbook;
      private String name;
      private String telephone;
      private String email;
+     private int id;
 
  public String getName(){
      return name;
@@ -29,11 +30,19 @@ package p1.project.addressbook;
      this.email = email;
  }
 
+ public int getId(){
+     return id;
+ }
+
+ public void setId(int id){
+     this.id = id;
+ }
+
  public String contactInfo(){
         return "C O N T A C T S \n"
-              +"Name: "+name+""
-              +"Telephone: "+telephone 
-              +"Email: "+email
-              +"--------------------------------";
+              +"Name: "+name+"\n"
+              +"Telephone: "+telephone+"\n"
+              +"Email: "+email+"\n";
+             
  }
 }
