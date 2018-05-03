@@ -7,7 +7,7 @@ package p1.project.addressbook;
        String name;
        int resp, numberCont;
 
-       System.out.print("Enter the addressbook's name: ");
+       System.out.print("Enter the address book's name: ");
        name = input.next();
        System.out.print("Enter the number of contact: ");
        numberCont = input.nextInt();
@@ -50,6 +50,6 @@ package p1.project.addressbook;
          }
        }
      }while(resp == 1);
-             System.out.println("Turning off the Address book....");
+             System.out.println("Turning off the address book....");
   }       
 }
