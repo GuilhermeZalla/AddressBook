@@ -43,6 +43,5 @@ package p1.project.addressbook;
               +"Name: "+name+"\n"
               +"Telephone: "+telephone+"\n"
               +"Email: "+email+"\n";
-             
  }
 }
